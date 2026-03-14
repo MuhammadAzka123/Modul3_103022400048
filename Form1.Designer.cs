@@ -67,6 +67,7 @@
             this.btn_convert.TabIndex = 2;
             this.btn_convert.Text = "Convert";
             this.btn_convert.UseVisualStyleBackColor = true;
+            this.btn_convert.Click += new System.EventHandler(this.btn_convert_Click);
             // 
             // cmb_satuanakhir
             // 
